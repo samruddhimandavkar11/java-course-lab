@@ -53,7 +53,6 @@ public class Function{
         int original = num;
         int reverse = 0;
 
-        // Reverse the number
         while (num != 0) {
             int digit = num % 10;
             reverse = reverse * 10 + digit;
