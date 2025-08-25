@@ -55,3 +55,17 @@ update Employee set  DeptId = 003 where Depart ='Finance';
 update Employee set  DeptId = 004 where Depart ='UI/UX';
 update Employee set  DeptId = 005 where Depart ='Marketing';
 update Employee set  DeptId = 006 where Depart ='Sales';
+
+desc Employee;
+desc Department;
+
+select * from Employee;
+select * from Department;
+
+SELECT * FROM Employee WHERE EmpName LIKE '%a%';
+SELECT * FROM Employee WHERE EmpName LIKE '%a';
+SELECT * FROM Employee WHERE EmpName LIKE 'a%';
+SELECT * FROM Employee WHERE EmpName LIKE '_a%';
+select * from Employee order by EmpName limit 5;
+select count(*) from Employee;
+
